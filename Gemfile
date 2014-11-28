@@ -53,3 +53,10 @@ gem 'nokogiri'
 
 # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for modern web app frameworks and ORMs
 gem 'kaminari'
+
+group :development, :test do
+  # Better error page for Rack apps
+  gem 'better_errors'
+  # Retrieve the binding of a method's caller in MRI 1.9.2+
+  gem 'binding_of_caller'
+end
