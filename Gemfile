@@ -42,3 +42,6 @@ gem 'spring',        group: :development
 
 # Flexible authentication solution for Rails with Warden.
 gem 'devise'
+
+# Rails engine that provides an easy-to-use interface for managing your data
+gem "rails_admin"
