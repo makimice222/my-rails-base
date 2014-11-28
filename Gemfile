@@ -38,10 +38,18 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-######################################################
+####################################################
+# Customize
+####################################################
 
 # Flexible authentication solution for Rails with Warden.
 gem 'devise'
 
 # Rails engine that provides an easy-to-use interface for managing your data
 gem "rails_admin"
+
+# Nokogiri (鋸) is an HTML, XML, SAX, and Reader parser with XPath and CSS selector support.
+gem 'nokogiri'
+
+# A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for modern web app frameworks and ORMs
+gem 'kaminari'
