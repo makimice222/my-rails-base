@@ -59,4 +59,11 @@ group :development, :test do
   gem 'better_errors'
   # Retrieve the binding of a method's caller in MRI 1.9.2+
   gem 'binding_of_caller'
+
+  # Guard::RSpec automatically run your specs (much like autotest)
+  gem 'guard-rspec'
+  # rspec-rails is a testing framework for Rails 3.x and 4.x.
+  gem 'rspec-rails'
+  # Guard::LiveReload automatically reload your browser when 'view' files are modified.
+  gem 'guard-livereload'
 end
