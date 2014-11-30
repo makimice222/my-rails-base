@@ -12,7 +12,7 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer',  platforms: :ruby
+gem 'therubyracer',  platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -53,6 +53,15 @@ gem 'nokogiri'
 
 # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for modern web app frameworks and ORMs
 gem 'kaminari'
+
+# twitter bootstrap rails gem that allows easy customization of bootstrap's less and javascript components
+gem 'twitter-bootswatch-rails'
+
+# rails controller and view helpers for twitter bootstrap's alerts and breadcrumbs
+gem 'twitter-bootswatch-rails-helpers'
+
+# The dynamic stylesheet language for the Rails asset pipeline.
+gem 'less-rails'
 
 group :development, :test do
   # Better error page for Rack apps
