@@ -28,6 +28,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
+    awesome_print (1.2.0)
     bcrypt (3.1.9)
     better_errors (2.0.0)
       coderay (>= 1.0.0)
@@ -38,6 +39,8 @@ GEM
     builder (3.2.2)
     celluloid (0.16.0)
       timers (~> 4.0.0)
+    code_analyzer (0.4.5)
+      sexp_processor
     coderay (1.1.0)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -46,6 +49,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
+    colored (1.2)
     commonjs (0.2.7)
     debug_inspector (0.0.2)
     devise (3.4.1)
@@ -153,6 +157,16 @@ GEM
       remotipart (~> 1.0)
       safe_yaml (~> 1.0)
       sass-rails (~> 4.0)
+    rails_best_practices (1.15.4)
+      activesupport
+      awesome_print
+      code_analyzer (>= 0.4.3)
+      colored
+      erubis
+      i18n
+      json
+      require_all
+      ruby-progressbar
     railties (4.1.7)
       actionpack (= 4.1.7)
       activesupport (= 4.1.7)
@@ -166,6 +180,7 @@ GEM
       json (~> 1.4)
     ref (1.0.5)
     remotipart (1.2.1)
+    require_all (1.3.2)
     responders (1.1.2)
       railties (>= 3.2, < 4.2)
     rspec (3.1.0)
@@ -188,6 +203,7 @@ GEM
       rspec-mocks (~> 3.1.0)
       rspec-support (~> 3.1.0)
     rspec-support (3.1.2)
+    ruby-progressbar (1.7.0)
     safe_yaml (1.0.4)
     sass (3.2.19)
     sass-rails (4.0.4)
@@ -198,6 +214,7 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    sexp_processor (4.4.4)
     slop (3.6.0)
     spring (1.1.3)
     sprockets (2.11.3)
@@ -251,6 +268,7 @@ DEPENDENCIES
   nokogiri
   rails (= 4.1.7)
   rails_admin
+  rails_best_practices
   rspec-rails
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)

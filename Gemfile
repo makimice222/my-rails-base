@@ -68,6 +68,8 @@ group :development, :test do
   gem 'better_errors'
   # Retrieve the binding of a method's caller in MRI 1.9.2+
   gem 'binding_of_caller'
+  # a code metric tool for rails projects
+  gem "rails_best_practices"
 
   # Guard::RSpec automatically run your specs (much like autotest)
   gem 'guard-rspec'
