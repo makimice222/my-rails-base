@@ -14,4 +14,5 @@
  *= require spacelab/loader
  *= require spacelab/bootswatch
  *= require custom
+ *= require_tree .
  */

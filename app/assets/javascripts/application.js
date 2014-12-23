@@ -15,3 +15,4 @@
 //= require turbolinks
 //= require spacelab/loader
 //= require spacelab/bootswatch
+//= require_tree .
